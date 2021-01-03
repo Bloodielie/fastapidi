@@ -1,6 +1,6 @@
 # FastAPI DI
 
-*This library to integrate pyject into fastapi to use di*
+*This library to integrate [pyject](https://github.com/Bloodielie/pyject) into [fastapi](https://github.com/tiangolo/fastapi) to use di*
 
 ## Install
 

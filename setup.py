@@ -31,9 +31,9 @@ def get_packages(package):
 
 
 setuptools.setup(
-    name="pyjectt",
+    name="fastapidi",
     python_requires=">=3.7",
-    version=get_version("pyject"),
+    version="0.1.2",
     packages=get_packages("pyject"),
     url="https://github.com/Bloodielie/fastapidi",
     license="MIT License",
