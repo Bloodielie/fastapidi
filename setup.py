@@ -33,8 +33,8 @@ def get_packages(package):
 setuptools.setup(
     name="fastapidi",
     python_requires=">=3.7",
-    version="0.1.2",
-    packages=get_packages("pyject"),
+    version="0.1.4",
+    packages=get_packages("fastapidi"),
     url="https://github.com/Bloodielie/fastapidi",
     license="MIT License",
     author="Bloodie_lie",

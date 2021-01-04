@@ -43,3 +43,9 @@ def get_all_dependencies(annotation):
     async def depends_wrapper(request: Request):
         return request.app.container.get_all(annotation)
     return params.Depends(dependency=depends_wrapper, use_cache=True)
+
+
+def get_container() -> params.Depends:
+    async def depends_wrapper(request: Request) -> IContainer:
+        return request.app.container
+    return params.Depends(dependency=depends_wrapper, use_cache=True)
